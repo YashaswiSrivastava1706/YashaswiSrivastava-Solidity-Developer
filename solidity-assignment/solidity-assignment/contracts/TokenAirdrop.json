@@ -1,0 +1,130 @@
+{
+    "contractName": "TokenAirdrop",
+    "abi": [
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_newAirdropQuantity",
+            "type": "uint256"
+          }
+        ],
+        "name": "setAirdropQuantity",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "recipients",
+            "type": "address[]"
+          }
+        ],
+        "name": "executeAirdrop",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "name": "recipient",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "Airdrop",
+        "type": "event"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "tokenAddress",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "airdropQuantity",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "bytecode": "0x606060...",
+    "deployedBytecode": "0x606060...",
+    "sourceMap": "30:228:0...",
+    "deployedSourceMap": "30:228:0...",
+    "source": "pragma solidity ^0.8.0; ...",
+    "sourcePath": "contracts/TokenAirdrop.sol",
+    "ast": {
+      "absolutePath": "contracts/TokenAirdrop.sol",
+      "exportedSymbols": {
+        "TokenAirdrop": [
+          10496
+        ]
+      },
+      "id": 10497,
+      "nodeType": "SourceUnit",
+      "nodes": [
+        ...
+      ],
+      ...
+    },
+    "legacyAST": {
+      ...
+    },
+    "compiler": {
+      ...
+    },
+    "networks": {
+      "5777": {
+        ...
+      },
+      "42": {
+        ...
+      },
+      ...
+    },
+    "schemaVersion": "3.0.0",
+    "updatedAt": "2022-01-31T00:00:00.000Z"
+  }
+  
